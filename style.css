@@ -965,7 +965,7 @@ nav a,
         margin: 1rem .5rem;
     }
     .offerings-heading {
-        margin-top: 40vh;
+        margin-top: 0vh;
         font-size: 1.7rem;
     }
 }
