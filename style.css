@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
-body{
+
+body {
     padding: 0;
     margin: 0;
 }
-.callUs{
+
+.callUs {
     background-color: #290000;
     font-size: .8rem;
     padding: 0 1rem;
@@ -13,29 +15,36 @@ body{
     font-weight: 300;
     flex-wrap: wrap;
 }
-.callUs p{
+
+.callUs p {
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
-.callUs div{
+
+.callUs div {
     flex-wrap: wrap;
 }
-.telInfo{
+
+.telInfo {
     border-right: 1px solid rgba(245, 245, 245, 0.39);
     margin-right: 1rem;
     padding: 0 1rem;
 }
-.icons i{
+
+.icons i {
     margin: auto .5rem;
 }
-#section1{
+
+#section1 {
     height: 100vh;
     background-image: url('./rolexResort-bg.webp');
 }
-#section1::before{
-    background-image: linear-gradient( #ac765fc7 0%, rgba(0, 0, 0, 0.514) 25%);
+
+#section1::before {
+    background-image: linear-gradient(#ac765fc7 0%, rgba(0, 0, 0, 0.514) 25%);
 }
-.heading{
+
+.heading {
     align-items: center;
     margin-top: 13rem;
     /* justify-content: center; */
@@ -45,7 +54,8 @@ body{
     z-index: 1;
     flex-wrap: wrap;
 }
-nav{
+
+nav {
     flex-wrap: wrap;
     position: relative;
     z-index: 1;
@@ -53,93 +63,115 @@ nav{
     align-items: center;
     border-bottom: 1px solid #ffd4c24f;
 }
-nav a{
+
+nav a {
     flex-grow: 1;
     display: inline-block;
     text-decoration: none;
     margin: 1.8rem 1rem;
 }
-.resortName{
+
+.resortName {
     font-size: 1.5rem;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     padding-left: 1.5rem;
 }
-nav div{
+
+nav div {
     flex-wrap: wrap;
 }
-.tagline{
+
+.tagline {
     margin: 0;
     text-align: center;
     font-size: 3rem;
 }
-.bookNowBtn{
+
+.bookNowBtn {
     flex-grow: 1;
     width: 10rem;
     background-color: #f6b092e3;
     border: none;
 }
+
 /* ------------------------------------------------------- */
-#section2{
+#section2 {
     padding: 8rem;
     justify-content: center;
 }
-.hotelImage1{
+
+.hotelImage1 {
     width: 50rem;
     height: 27rem;
 }
-.hotelImage2 img{
+
+.hotelImage2 img {
     object-position: -20rem;
 }
-.hotelAd{
+
+.hotelAd {
     width: 39.9rem;
     margin: 2rem;
 }
-.hotelAd h1{
+
+.hotelAd h1 {
     font-size: 2.5rem;
 }
-.hotelAd p{
+
+.hotelAd p {
     line-height: 30px;
 }
-#learnMoreBtn{
+
+#learnMoreBtn {
     width: 10rem;
     padding: 1rem;
     background-color: white;
     color: #f6b092;
     border: 2px solid #f6b092;
 }
-#learnMoreBtn:hover, .view-project-btn:hover{
+
+#learnMoreBtn:hover,
+.view-project-btn:hover {
     background-color: #f6b092;
     border: none;
     color: white;
 }
-.view-project-btn:hover{
+
+.view-project-btn:hover {
     color: #0a0808;
 }
-.hotelImage2{
+
+.hotelImage2 {
     width: 30rem;
     height: 35rem;
 }
+
 /* --------------------------------------------------------- */
-#section3{
+#section3 {
     background-color: whitesmoke;
     padding: 8rem 3rem;
 }
-.roomsText{
+
+.roomsText {
     align-items: center;
     justify-content: space-between;
 }
-.roomsInfoHead{
+
+.roomsInfoHead {
     width: 24rem;
 }
-.roomsInfoHead p{
+
+.roomsInfoHead p {
     line-height: 25px;
-    color: rgb(42,42,42);
+    color: rgb(42, 42, 42);
 }
-.roomsInfoHead h2{
-    font-size: 2.5rem;    
+
+.roomsInfoHead h2 {
+    font-size: 2.5rem;
 }
-.arrows button{
+
+.arrows button {
     color: #1f1f1f;
     background-color: whitesmoke;
     padding: .5rem 1.2rem;
@@ -147,44 +179,58 @@ nav div{
     border: 1px solid rgba(42, 42, 42, 0.171);
     border-radius: 20px;
 }
-.bedroomsPrices h2{
+
+.bedroomsPrices h2 {
     font-size: 2rem;
-    margin:  .7rem 1.5rem;
+    margin: .7rem 1.5rem;
     position: relative;
     margin-top: 12rem;
     z-index: 1;
 }
-.bedroomsPrices p{
+
+.bedroomsPrices p {
     position: relative;
     z-index: 1;
     margin: 0rem 0rem 1rem 1.5rem;
     font-weight: 300;
 }
-.prices{
+
+.prices {
     font-size: 1.5rem;
     margin: .5rem;
 }
-.bedroom1, .bedroom2{
+
+.bedroom1,
+.bedroom2 {
     margin: 1.5rem .7rem;
     background-image: url('./bedroom1.jpg');
     height: 22rem;
     width: 32rem;
 }
-.bedroom2{
+
+.bedroom2 {
     background-image: url('./bedroom2.jpg');
 }
-.bedroom1::before, .bedroom2::before{
+
+.bedroom1::before,
+.bedroom2::before {
     background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(44, 44, 44, 0.76) 95%);
 }
+
 /* --------------------------------------------------------- */
-.leftArrow, .rightArrow, .Arrow2{
+.leftArrow,
+.rightArrow,
+.Arrow2 {
     cursor: pointer;
 }
-.leftArrow:hover, .rightArrow:hover{
+
+.leftArrow:hover,
+.rightArrow:hover {
     background-color: #1f1f1f;
     color: whitesmoke;
 }
-#section3a{
+
+#section3a {
     padding-top: 2rem;
     text-align: center;
     align-items: center;
@@ -193,20 +239,24 @@ nav div{
     height: 50vh;
 }
 
-.findRoomLink{
+.findRoomLink {
     display: inline-block;
     text-decoration: dotted;
     color: #1f1f1f;
     margin-bottom: 2.5rem;
 }
-.season-special-img, .season-special-ad-txt{
+
+.season-special-img,
+.season-special-ad-txt {
     width: 25rem;
     height: 25rem;
 }
-.season-special-img{
+
+.season-special-img {
     width: 28rem;
 }
-.season-special-ad-txt{
+
+.season-special-ad-txt {
     flex-direction: column;
     align-items: center;
     padding: 0rem 1.5rem;
@@ -214,68 +264,88 @@ nav div{
     background-color: #0a0808;
     flex-wrap: wrap;
 }
-.season-special-ad-txt p{
+
+.season-special-ad-txt p {
     line-height: 20px;
     margin-top: 0;
     margin-bottom: 2rem;
 }
-.season-special-ad-txt h1{
+
+.season-special-ad-txt h1 {
     margin-top: 2.5rem;
 }
-.season-special-ad-txt h1, .hotel-infos h1{
+
+.season-special-ad-txt h1,
+.hotel-infos h1 {
     font-size: 2.2rem;
 }
-.hotel-infos h1{
+
+.hotel-infos h1 {
     width: 49rem;
     color: #141414;
 }
-.view-project-btn{
+
+.view-project-btn {
     width: 10rem;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0);
     color: #f6b092;
     border: 2px solid #f6b092;
 }
+
 /* -------------------------------------------------------- */
-#section4{
+#section4 {
     margin-top: 24vh;
     padding: 25vh 5rem 6rem;
     text-align: center;
 }
-.offerings-heading{
+
+.offerings-heading {
     font-size: 2.5rem;
 }
-.offerings-images{
+
+.offerings-images {
     justify-content: center;
 }
-.free-drinks-img, .free-breakfast-img, .free-dinner-img{
+
+.free-drinks-img,
+.free-breakfast-img,
+.free-dinner-img {
     background-image: url('./drinks.png');
     width: 23rem;
     height: 25rem;
-    margin: .6rem;  
+    margin: .6rem;
 }
-.free-breakfast-img{
+
+.free-breakfast-img {
     background-image: url('./breakfast.jpg');
 }
-.free-dinner-img{
+
+.free-dinner-img {
     background-image: url('./dinner.jpg');
 }
-.free-offerings-text{
+
+.free-offerings-text {
     font-size: 2rem;
     margin-top: 20.5rem;
     position: relative;
 }
-.free-breakfast-img::before, .free-dinner-img::before, .free-drinks-img::before{
+
+.free-breakfast-img::before,
+.free-dinner-img::before,
+.free-drinks-img::before {
     background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 95%);
 }
+
 /* --------------------------------------------------------- */
-#section5{
+#section5 {
     background-color: #c17e60;
     justify-content: space-between;
     align-items: center;
     padding: 4rem 5.5rem;
 }
-.Arrow2{
+
+.Arrow2 {
     background-color: #ffffff00;
     height: 3rem;
     width: 3rem;
@@ -283,89 +353,158 @@ nav div{
     border-radius: 30px;
     margin: 2rem;
 }
-.Arrow2:hover{
+
+.Arrow2:hover {
     background-color: whitesmoke;
     color: #c17e60;
 }
-.food-highlights h1,.accomodation-highlights h1{
+
+.food-highlights h1,
+.accomodation-highlights h1 {
     font-weight: 400;
 }
-.food-highlights p,.accomodation-highlights p {
+
+.food-highlights p,
+.accomodation-highlights p {
     font-weight: 300;
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
-.food-highlights, .accomodation-highlights{
+
+.food-highlights,
+.accomodation-highlights {
     margin: 1rem;
     width: 27rem;
 }
+
 /* --------------------------------------------------------- */
-footer{
+footer {
     background-color: #0f0707;
     padding: 2rem 5rem;
     justify-content: space-between;
 }
-.social{
+
+.social {
     width: 15.5rem;
 }
-.social-icons{
+
+.social-icons {
     color: rgba(255, 255, 255, 0.459);
     margin: .5rem;
 }
-.rolaxR-head{
+
+.rolaxR-head {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     color: #c17e60;
 }
-.social p, .location, .mail-id, .telephone, .navigation-menu a, .subscribe{
+
+.social p,
+.location,
+.mail-id,
+.telephone,
+.navigation-menu a,
+.subscribe {
     font-size: .8rem;
     font-weight: 300;
 }
-.navigation-menu, .newsletter{
+
+.navigation-menu,
+.newsletter {
     flex-direction: column;
 }
-.navigation-menu, .contact-info{
+
+.navigation-menu,
+.contact-info {
     margin: 0 2rem;
 }
-.navigation-menu a{
+
+.navigation-menu a {
     display: inline-block;
     text-decoration: none;
     margin: .2rem;
 }
-.telephone{
+
+.telephone {
     color: #c17e60;
 }
-#enter-email{
+
+#enter-email {
     padding: .8rem 1rem;
     padding-right: 12rem;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid #c17f6060;
 }
-#search-btn{
+
+#search-btn {
     background-color: #f6b092;
     padding: .8rem 1rem;
     border: none;
     margin-top: .3rem;
 }
-#search-btn:hover{
+
+#search-btn:hover {
     background-color: #0f0707;
     border: 2px solid #f6b092;
 }
+
 /* --------------------------------------------------------- */
 /* COMMONS */
-#section1, .bedroom1, .bedroom2, .free-drinks-img, .free-breakfast-img, .free-dinner-img{
+#section1,
+.bedroom1,
+.bedroom2,
+.free-drinks-img,
+.free-breakfast-img,
+.free-dinner-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-.callUs, .callUs div, .icons, .heading, nav, nav div, #section2, .roomsText, .bedroomsPrices, #section3a, .season-special-ad, .season-special-ad-txt, .offerings-images, #section5, .navigation-menu, footer, .newsletter{
+
+.callUs,
+.callUs div,
+.icons,
+.heading,
+nav,
+nav div,
+#section2,
+.roomsText,
+.bedroomsPrices,
+#section3a,
+.season-special-ad,
+.season-special-ad-txt,
+.offerings-images,
+#section5,
+.navigation-menu,
+footer,
+.newsletter {
     display: flex;
 }
-.callUs, .icons, nav, nav a, .tagline, .bookNowBtn, .bedroomsPrices, .season-special-ad-txt, .free-offerings-text, #section5, .Arrow2, footer, .navigation-menu a, #search-btn {
+
+.callUs,
+.icons,
+nav,
+nav a,
+.tagline,
+.bookNowBtn,
+.bedroomsPrices,
+.season-special-ad-txt,
+.free-offerings-text,
+#section5,
+.Arrow2,
+footer,
+.navigation-menu a,
+#search-btn {
     color: white;
 }
-#section1::before, .bedroom1::before, .bedroom2::before, .free-breakfast-img::before, .free-dinner-img::before, .free-drinks-img::before{
+
+#section1::before,
+.bedroom1::before,
+.bedroom2::before,
+.free-breakfast-img::before,
+.free-dinner-img::before,
+.free-drinks-img::before {
     content: '';
     position: absolute;
     top: 0;
@@ -373,299 +512,460 @@ footer{
     width: 100%;
     height: 100%;
 }
-.tagline, .hotelAd h1, .roomsInfoHead h2, .bedroomsPrices h2, .season-special-ad-txt h1, .hotel-infos h1, .offerings-heading, .free-offerings-text, .navigation-head, .contact-head, .newsletter-head{
+
+.tagline,
+.hotelAd h1,
+.roomsInfoHead h2,
+.bedroomsPrices h2,
+.season-special-ad-txt h1,
+.hotel-infos h1,
+.offerings-heading,
+.free-offerings-text,
+.navigation-head,
+.contact-head,
+.newsletter-head {
     font-weight: 100;
 }
-.callUs ,nav, .bookNowBtn, .hotelAd p, #learnMoreBtn, .roomsInfoHead p, .bedroomsPrices p, .prices, .findRoomLink, .season-special-ad-txt p, .view-project-btn, #section5, #enter-email, .food-highlights p,.accomodation-highlights p, #search-btn, .social p, .location, .mail-id, .telephone, .navigation-menu a, .subscribe{
+
+.callUs,
+nav,
+.bookNowBtn,
+.hotelAd p,
+#learnMoreBtn,
+.roomsInfoHead p,
+.bedroomsPrices p,
+.prices,
+.findRoomLink,
+.season-special-ad-txt p,
+.view-project-btn,
+#section5,
+#enter-email,
+.food-highlights p,
+.accomodation-highlights p,
+#search-btn,
+.social p,
+.location,
+.mail-id,
+.telephone,
+.navigation-menu a,
+.subscribe {
     font-family: 'Jost', sans-serif;
 }
-.hotelImage1 img, .hotelImage2 img, .season-special-img img{
+
+.hotelImage1 img,
+.hotelImage2 img,
+.season-special-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.icons, nav a, .bookNowBtn, #learnMoreBtn, .arrows button, .view-project-btn{
+
+.icons,
+nav a,
+.bookNowBtn,
+#learnMoreBtn,
+.arrows button,
+.view-project-btn {
     font-size: 1rem;
 }
+
 /* ---------------------------------------------------------------- */
-@media (max-width: 1200px){
-    .tagline{
+@media (max-width: 1200px) {
+    .tagline {
         font-size: 3.5rem;
     }
-    nav a, .bookNowBtn{
+
+    nav a,
+    .bookNowBtn {
         font-size: 1rem;
     }
-    .resortName{
+
+    .resortName {
         font-size: 1.5rem;
     }
 }
 
-@media (max-width: 992px){
-    .tagline{
+@media (max-width: 992px) {
+    .tagline {
         font-size: 3rem;
     }
-    nav a, .bookNowBtn{
+
+    nav a,
+    .bookNowBtn {
         font-size: .8rem;
     }
-    .resortName{
+
+    .resortName {
         font-size: 1.4rem;
     }
-    nav a{
+
+    nav a {
         margin: 1.2rem .7rem;
     }
-    #section2, .season-special-ad, .offerings-images, footer{
+
+    #section2,
+    .season-special-ad,
+    .offerings-images,
+    footer {
         flex-wrap: wrap;
     }
-    .hotelAd h1, .roomsInfoHead h2{
+
+    .hotelAd h1,
+    .roomsInfoHead h2 {
         font-size: 2rem;
     }
-    .season-special-ad{
+
+    .season-special-ad {
         justify-content: center;
     }
-    .hotel-infos h1{
+
+    .hotel-infos h1 {
         width: 35rem;
     }
-    .offerings-heading{
+
+    .offerings-heading {
         margin-top: 80vh;
     }
-    #section5{
+
+    #section5 {
         padding: 3rem 4rem;
     }
-    footer{
+
+    footer {
         justify-content: space-around;
     }
 }
 
-@media (max-width: 767px){
-    .tagline{
+@media (max-width: 767px) {
+    .tagline {
         font-size: 2.5rem;
     }
-    nav a, .bookNowBtn{
+
+    nav a,
+    .bookNowBtn {
         font-size: .7rem;
     }
-    .rolaxR-head, .resortName{
+
+    .rolaxR-head,
+    .resortName {
         font-size: 1.3rem;
     }
-    .heading{
+
+    .heading {
         margin-top: 12rem;
     }
-    #section2{
+
+    #section2 {
         padding: 5rem;
     }
-    .hotelImage1{
+
+    .hotelImage1 {
         width: 45rem;
         height: 24rem;
     }
-    .hotelImage2{
+
+    .hotelImage2 {
         width: 26rem;
         height: 30rem;
     }
-    .bedroomsPrices{
+
+    .bedroomsPrices {
         flex-wrap: wrap;
         justify-content: center;
     }
-    #section3{
+
+    #section3 {
         padding: 5rem 1rem;
     }
-    .bedroom1, .bedroom2{
+
+    .bedroom1,
+    .bedroom2 {
         margin: 1rem .5rem;
     }
-    .hotelAd p, .roomsText p, .bedroomsPrices p{
+
+    .hotelAd p,
+    .roomsText p,
+    .bedroomsPrices p {
         font-size: .8rem;
     }
-    .bedroom1 h2, .bedroom2 h2{
+
+    .bedroom1 h2,
+    .bedroom2 h2 {
         margin-top: 14rem;
     }
-    .bedroomsPrices p{
+
+    .bedroomsPrices p {
         margin: 0rem 0rem .8rem 1.5rem;
     }
-    #section4{
+
+    #section4 {
         padding: 25vh 1rem 2rem;
     }
-    .offerings-heading{
+
+    .offerings-heading {
         font-size: 2rem;
     }
-    .free-drinks-img, .free-breakfast-img, .free-dinner-img{
+
+    .free-drinks-img,
+    .free-breakfast-img,
+    .free-dinner-img {
         height: 20rem;
     }
-    .free-offerings-text{
+
+    .free-offerings-text {
         font-size: 1.5rem;
         margin-top: 16.5rem;
     }
-    #section5{
+
+    #section5 {
         flex-wrap: wrap;
         padding: 2rem 3rem;
         justify-content: center;
     }
-    .food-highlights h1, .accomodation-highlights h1{
+
+    .food-highlights h1,
+    .accomodation-highlights h1 {
         margin-top: 1rem;
     }
-    .food-highlights p, .accomodation-highlights p{
+
+    .food-highlights p,
+    .accomodation-highlights p {
         font-size: 1rem;
     }
-    .contact-head, .newsletter-head, .navigation-head, .food-highlights h1, .accomodation-highlights h1{
+
+    .contact-head,
+    .newsletter-head,
+    .navigation-head,
+    .food-highlights h1,
+    .accomodation-highlights h1 {
         font-size: 1.2rem;
     }
-    .social p, .telephone, .location, .mail-id, .subscribe, .navigation-menu a{
+
+    .social p,
+    .telephone,
+    .location,
+    .mail-id,
+    .subscribe,
+    .navigation-menu a {
         font-size: .6rem;
     }
-    #enter-email, #search-btn{
+
+    #enter-email,
+    #search-btn {
         padding: .5rem .8rem;
     }
-    .contact-info,.navigation-menu,.newsletter{
+
+    .contact-info,
+    .navigation-menu,
+    .newsletter {
         flex-grow: 1;
     }
-    .contact-info{
+
+    .contact-info {
         margin: 0;
     }
+
     .findRoomLink {
         margin-bottom: 1rem;
     }
 
 }
 
-@media (max-width: 597px){
-    .resortName{
+@media (max-width: 597px) {
+    .resortName {
         margin: .5rem;
         padding: 0;
     }
-    nav{
+
+    nav {
         justify-content: center;
     }
 }
 
-@media (max-width: 576px){
-    .tagline, .hotelAd h1, .roomsInfoHead h2{
+@media (max-width: 576px) {
+
+    .tagline,
+    .hotelAd h1,
+    .roomsInfoHead h2 {
         font-size: 1.8rem;
     }
-    .callUs{
+
+    .callUs {
         font-size: .6rem;
         justify-content: center;
     }
-    .heading{
+
+    .heading {
         margin-top: 13rem;
     }
-    #section2{
+
+    #section2 {
         padding: 1.5rem;
     }
-    .hotelImage1{
+
+    .hotelImage1 {
         width: 40rem;
         height: 20rem;
     }
-    .hotelImage2{
+
+    .hotelImage2 {
         width: 20rem;
         height: 25rem;
     }
-    #learnMoreBtn{
+
+    #learnMoreBtn {
         width: 8rem;
         padding: .5rem;
         font-size: .8rem;
     }
-    #section3{
+
+    #section3 {
         padding: 3rem .5rem;
     }
-    .bedroom1, .bedroom2{
+
+    .bedroom1,
+    .bedroom2 {
         margin: .7rem .3rem;
     }
-    .hotel-infos h1{
+
+    .hotel-infos h1 {
         width: 20rem;
         font-size: 1.7rem;
     }
-    .season-special-img, .season-special-ad-txt{
+
+    .season-special-img,
+    .season-special-ad-txt {
         width: 20rem;
         height: 20rem;
         padding: 0;
     }
-    .season-special-ad-txt h1, .bedroom1 h2, .bedroom2 h2, .free-offerings-text{
+
+    .season-special-ad-txt h1,
+    .bedroom1 h2,
+    .bedroom2 h2,
+    .free-offerings-text {
         font-size: 1.5rem;
     }
-    .season-special-ad-txt p, .hotel-infos a{
+
+    .season-special-ad-txt p,
+    .hotel-infos a {
         font-size: .6rem;
     }
-    .view-project-btn{
+
+    .view-project-btn {
         width: 8rem;
         padding: .5rem;
     }
-    .bedroom1, .bedroom2{
+
+    .bedroom1,
+    .bedroom2 {
         height: 20rem;
     }
-    .prices, .food-highlights h1, .accomodation-highlights h1, .rolaxR-head, .resortName{
+
+    .prices,
+    .food-highlights h1,
+    .accomodation-highlights h1,
+    .rolaxR-head,
+    .resortName {
         font-size: 1rem;
     }
-    #section4{
+
+    #section4 {
         padding: 25vh 0rem 2rem;
     }
+
     /* .roomsText{
         display: flex;
         flex-direction: column;
         align-items: center;
     } */
-    .offerings-heading{
+    .offerings-heading {
         margin-top: 55vh;
-    }
-    .offerings-heading{
         font-size: 1.7rem;
     }
-    .free-offerings-text{
+
+    .free-offerings-text {
         margin-top: 16.5rem;
     }
-    #section5{
+
+    #section5 {
         flex-wrap: wrap;
         padding: 1rem 2.5rem;
         justify-content: center;
     }
-    .food-highlights h1, .accomodation-highlights h1{
+
+    .food-highlights h1,
+    .accomodation-highlights h1 {
         margin-top: 1rem;
     }
-    .food-highlights p, .accomodation-highlights p, .view-project-btn, .hotelAd p{
+
+    .food-highlights p,
+    .accomodation-highlights p,
+    .view-project-btn,
+    .hotelAd p {
         font-size: .8rem;
     }
-    .Arrow2{
+
+    .Arrow2 {
         margin: 0;
     }
-    footer{
+
+    footer {
         justify-content: flex-start;
         padding: 1.5rem 3rem;
     }
-    .navigation-head, .contact-head, .newsletter-head{
+
+    .navigation-head,
+    .contact-head,
+    .newsletter-head {
         font-size: .9rem;
     }
-    .navigation-menu{
+
+    .navigation-menu {
         margin-left: 0;
     }
-    #search-btn, #enter-email{
+
+    #search-btn,
+    #enter-email {
         padding: .4rem 1rem;
         font-size: .6rem;
     }
-    .newsletter-head{
+
+    .newsletter-head {
         margin-bottom: 0;
     }
 }
 
-@media (max-width: 544px){
-    nav{
+@media (max-width: 544px) {
+    nav {
         justify-content: center;
     }
-    .resortName{
-        margin:1rem auto;
+
+    .resortName {
+        margin: 1rem auto;
     }
 }
 
-@media (max-width: 444px){
-        .bookNowBtn{
-            padding: 1rem 1rem;
-        }
-        nav a{
-            margin: 1rem .5rem;
-        }
+@media (max-width: 444px) {
+    .bookNowBtn {
+        padding: 1rem 1rem;
+    }
+
+    nav a {
+        margin: 1rem .5rem;
+    }
 }
 
-@media (max-width: 412px){
-        .resortName{
-            margin:1rem auto;
-        }
-        nav a{
-            margin:1rem .5rem;
-        }
+@media (max-width: 412px) {
+    .resortName {
+        margin: 1rem auto;
+    }
+
+    nav a {
+        margin: 1rem .5rem;
+    }
+    .offerings-heading {
+        margin-top: 40vh;
+        font-size: 1.7rem;
+    }
 }
-    
