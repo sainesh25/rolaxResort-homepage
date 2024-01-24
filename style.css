@@ -883,7 +883,7 @@ nav a,
         align-items: center;
     } */
     .offerings-heading {
-        margin-top: 55vh;
+        margin-top: 48vh;
         font-size: 1.7rem;
     }
 
@@ -943,29 +943,6 @@ nav a,
     .icons{
         margin-bottom: .2rem;
     }
-}
-
-@media (max-width: 544px) {
-    nav {
-        justify-content: center;
-    }
-
-    .resortName {
-        margin: 1rem auto;
-    }
-}
-
-@media (max-width: 444px) {
-    .bookNowBtn {
-        padding: .6rem 1rem;
-    }
-
-    nav a {
-        margin: 1rem .5rem;
-    }
-}
-
-@media (max-width: 412px) {
     .resortName {
         margin: .6rem auto;
     }
@@ -974,8 +951,37 @@ nav a,
         margin: .6rem .5rem;
         text-align: center;
     }
-    .offerings-heading {
+    .bookNowBtn {
+        width: 100%;
+        padding: .6rem 1rem;
+    }
+    .nav-links{
+        width: 100%;
+    }
+    nav a {
+        margin: 1rem .5rem;
+    }
+    /* .offerings-heading {
         margin-top: 40vh;
         font-size: 1.7rem;
+    } */
+    nav {
+        justify-content: center;
+    }
+    
+    .resortName {
+        margin: 1rem auto;
     }
 }
+
+/* @media (max-width: 544px) {
+}
+
+@media (max-width: 444px) {
+    
+}
+
+@media (max-width: 412px) {
+    
+    
+} */
